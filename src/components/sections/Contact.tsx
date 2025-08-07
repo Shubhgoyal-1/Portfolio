@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, Phone, MapPin, Github, Linkedin, Instagram } from 'lucide-react';
+import { Mail, Phone, MapPin, Github, Linkedin, Instagram,Code,BrainCircuit  } from 'lucide-react';
 
 const Contact: React.FC = () => {
   const contactInfo = [
@@ -23,7 +23,8 @@ const Contact: React.FC = () => {
       value: "Ghaziabad, India",
       href: "#",
       target: ""
-    }
+    },
+    
   ];
 
   const socialLinks = [

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Home, User, Briefcase, Code, Mail, Github, Linkedin, Instagram } from 'lucide-react';
+import { Home, User, Briefcase, Code, Mail, Github, Linkedin, Instagram, BrainCircuit,Atom } from 'lucide-react';
 
 interface SidebarProps {
   activeSection: string;
@@ -18,7 +18,7 @@ const Sidebar: React.FC<SidebarProps> = ({ activeSection, onNavigate }) => {
   const socialLinks = [
     { href: 'https://github.com/Shubhgoyal-1', icon: Github, label: 'GitHub' },
     { href: 'https://linkedin.com/in/shubh-goyal-48130a255/', icon: Linkedin, label: 'LinkedIn' },
-    { href: 'https://instagram.com/ishubhgoyal', icon: Instagram, label: 'Instagram' },
+    { href: "https://leetcode.com/u/ishubhgoyal", icon: Atom , label : 'Leetcode'}
   ];
 
   return (
