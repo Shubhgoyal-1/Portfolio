@@ -1,5 +1,5 @@
 import React from 'react';
-import { Home, User, Briefcase, Code, Mail, Github, Linkedin, Instagram, BrainCircuit,Atom } from 'lucide-react';
+import { Home, User, Briefcase, Code, Mail, Github, Linkedin,Atom } from 'lucide-react';
 
 interface SidebarProps {
   activeSection: string;
